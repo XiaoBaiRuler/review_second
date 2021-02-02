@@ -29,3 +29,31 @@
 >
 > [代码](ListString01.java)
 
+#### [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+
+> 给定一个字符串，请你找出其中不含有重复字符的 **最长子串** 的长度。
+>
+> **提示：**
+>
+> - `0 <= s.length <= 5 * 104`
+> - `s` 由英文字母、数字、符号和空格组成
+>
+> 解题思路1：
+>
+> > 遍历字符串 - HashSet判断是否重复字符(并且将字符添加到StringBuffer中) - 当第一次出现重复时(更新max并且根据StringBuffer回退遍历字符串的索引；充值计数器；更新StringBuffer) - 再更新一次max - 返回
+>
+> [代码](ListString03.java)
+
+#### [334. 递增的三元子序列](https://leetcode-cn.com/problems/increasing-triplet-subsequence/)
+
+> 给你一个整数数组 nums ，判断这个数组中是否存在长度为 3 的递增子序列。
+>
+> 如果存在这样的三元组下标 (i, j, k) 且满足 i < j < k ，使得 nums[i] < nums[j] < nums[k] ，返回 true ；否则，返回 false 。
+>
+> 解题思路1：枚举所有i,j,k(i < j < k)：先判断nums[i] < nums[j]，再判断nums[j] < nums[k]，时间复杂度很高，空间复杂度较好，但是题目进阶需要时间复杂度O(N)，空间复杂度O(1)
+>
+> [代码](ListString05.java)
+>
+> 解题思路2：
+>
+> [代码]()

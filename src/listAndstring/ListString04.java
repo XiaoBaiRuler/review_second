@@ -10,6 +10,16 @@ public class ListString04 {
 
     }
     public static String longestPalindrome(String s) {
+        int all = s.length();
+        StringBuffer sb = new StringBuffer();
+
+        for (int i = 0; i < all; i++) {
+            sb.append(s.charAt(i));
+            for (int j = i; j >= 0; j--) {
+
+            }
+        }
+
         return null;
     }
 }
