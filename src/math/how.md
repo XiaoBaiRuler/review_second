@@ -17,3 +17,13 @@
 > 解题思路1：二分查找
 >
 > [代码](Math02.java)
+
+#### [171. Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/)
+
+> 给定一个Excel表格中的列名称，返回其相应的列序号。
+>
+> A -> 1...AA ->27....
+>
+> 解题思路1：有点像26进制
+>
+> [代码](Math03.java)
