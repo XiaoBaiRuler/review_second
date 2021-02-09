@@ -27,3 +27,17 @@
 > 解题思路1：有点像26进制
 >
 > [代码](Math03.java)
+
+#### [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)
+
+> 实现 [pow(*x*, *n*)](https://www.cplusplus.com/reference/valarray/pow/) ，即计算 x 的 n 次幂函数（即，xn）。
+>
+> **提示：**
+>
+> - `-100.0 < x < 100.0`
+> - `-231 <= n <= 231-1`
+> - `-104 <= xn <= 104`
+>
+> 解题思路1：二分法：还有二分法是为了减少一半操作
+>
+> [代码](Math04.java)
