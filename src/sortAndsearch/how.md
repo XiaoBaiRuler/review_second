@@ -33,3 +33,14 @@
 > > - 右侧升序：如果target在区间内：left = mid + 1，否则right = mid - 1
 >
 > [代码](SortSearch.java)
+
+#### [347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)
+
+> 给定一个非空的整数数组，返回其中出现频率前 ***k\*** 高的元素。
+>
+> 解题思路1：先用HashMap统计出频率，再将PrioityQueue改为大顶堆(比较内容为频率)，最后遍历重组数组
+>
+> [代码](SortSearch03.java)
+>
+> 解题思路2：官方的快速排序的修改的
+
