@@ -55,3 +55,17 @@
 > 解题思路1：遍历，再逐个检查左右侧元素是否小于中间元素，注意端点
 >
 > [代码](SortSearch04.java)
+
+#### [56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)
+
+> 以数组 intervals 表示若干个区间的集合，其中单个区间为 intervals[i] = [starti, endi] 。请你合并所有重叠的区间，并返回一个不重叠的区间数组，该数组需恰好覆盖输入中的所有区间。
+>
+> 提示：
+>
+> 1 <= intervals.length <= 104
+> intervals[i].length == 2
+> 0 <= starti <= endi <= 104
+>
+> 解题思路：先对数组排序(按第一个元素的标准)，再逐个叠加
+>
+> [代码](SortSearch05.java)
