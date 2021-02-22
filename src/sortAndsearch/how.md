@@ -77,3 +77,15 @@
 > 解题思路1：堆(优先队列)弄的，但是它这个要分治法，或者自己实现一个堆操作：上滤操作才能优化
 >
 > [代码](SortSearch06.java)
+
+#### [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+
+> 给定一个按照升序排列的整数数组 nums，和一个目标值 target。找出给定目标值在数组中的开始位置和结束位置。
+>
+> 如果数组中不存在目标值 target，返回 [-1, -1]。
+>
+> 进阶：
+>
+> 你可以设计并实现时间复杂度为 O(log n) 的算法解决此问题吗？
+>
+> [代码](SortSearch07.java)
